@@ -8,14 +8,14 @@ import {
 } from "react-router-dom";
 import { type User, UserSchema } from "./types/user";
 import "./App.css";
+import supabase from "@/config/supabaseClient";
+import Setting from "@/features/account/Account";
+import LoginPage from "@/features/auth/LoginPage";
+import DashboardLayout from "@/features/dashboard/Dashboard";
+import Dashboard from "@/features/dashboard/Top";
+import SatisfactionGuarantee from "@/features/satisfactionGuarantee/SatisfactionGuarantee";
+import { useUserStore } from "@/store/useUserStore";
 import ky from "ky";
-import DashboardLayout from "./components/Dashboard";
-import LoginPage from "./components/LoginPage";
-import Setting from "./components/Setting";
-import Dashboard from "./components/Top";
-import SatisfactionGuarantee from "./components/satisfactionGuarantee/SatisfactionGuarantee";
-import { useUserStore } from "./store/useUserStore";
-import supabase from "./supabaseClient";
 
 function App() {
 	const { user, setUser } = useUserStore();

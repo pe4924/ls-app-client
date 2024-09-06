@@ -1,3 +1,7 @@
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import Header from "@/layouts/Header";
+import { useUserStore } from "@/store/useUserStore";
 import { useEffect, useState } from "react";
 import { AiFillProduct } from "react-icons/ai";
 import { FaHandHoldingHeart } from "react-icons/fa";
@@ -10,10 +14,6 @@ import {
 	IoSettingsOutline,
 } from "react-icons/io5";
 import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
-import { useUserStore } from "../store/useUserStore";
-import Header from "./Header";
-import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
 
 const navItems = [
 	{ to: "/top", label: "TOP", icon: IoHomeOutline, index: 0 },

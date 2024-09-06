@@ -1,7 +1,7 @@
 import ky from "ky";
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
-import supabase from "../supabaseClient";
+import supabase from "@/config/supabaseClient";
 import type { RawUser, User, UserState } from "../types/user";
 import { UserSchema } from "../types/user";
 
