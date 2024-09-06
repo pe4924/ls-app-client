@@ -30,45 +30,23 @@
 │   ├── assets
 │   │   └── react.svg
 │   ├── components
-│   │   ├── MultiSelect.tsx
+│   │   ├── コンポーネント
 │   │   └── ui
-│   │       ├── avatar.tsx
-│   │       ├── badge.tsx
-│   │       ├── button.tsx
-│   │       ├── card.tsx
-│   │       ├── input.tsx
-│   │       ├── label.tsx
-│   │       ├── scroll-area.tsx
-│   │       ├── select.tsx
-│   │       ├── sonner.tsx
-│   │       ├── table.tsx
-│   │       ├── tabs.tsx
-│   │       └── toast.tsx
+│   │       ├── Shadcn/ui のコンポーネント
 │   ├── config
 │   │   └── supabaseClient.ts
 │   ├── features
-│   │   ├── account
-│   │   │   └── Account.tsx
-│   │   ├── auth
-│   │   │   └── LoginPage.tsx
-│   │   ├── dashboard
-│   │   │   ├── Dashboard.tsx
-│   │   │   └── Top.tsx
-│   │   └── satisfactionGuarantee
-│   │       ├── CsvUpload.tsx
-│   │       ├── Inquiry.tsx
-│   │       └── SatisfactionGuarantee.tsx
+│   │   ├── サービスごとの機能
 │   ├── hooks
-│   │   └── useSetting.ts
+│   │   └── カスタムフック
 │   ├── index.css
 │   ├── layouts
-│   │   └── Header.tsx
+│   │   └── レイアウト周りのコンポーネント
 │   ├── lib
 │   │   └── utils.ts
 │   ├── main.tsx
 │   ├── store
-│   │   ├── useSatisfactionGuaranteeStore.ts
-│   │   └── useUserStore.ts
+│   │   ├── 状態管理ファイル
 │   ├── types
 │   │   └── user.ts
 │   └── vite-env.d.ts
