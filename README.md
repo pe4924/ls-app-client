@@ -30,13 +30,13 @@
 │   ├── assets
 │   │   └── react.svg
 │   ├── components
-│   │   ├── コンポーネント
+│   │   └── コンポーネント
 │   │   └── ui
-│   │       ├── Shadcn/ui のコンポーネント
+│   │       └── Shadcn/ui のコンポーネント
 │   ├── config
 │   │   └── supabaseClient.ts
 │   ├── features
-│   │   ├── サービスごとの機能
+│   │   └── サービスごとの機能
 │   ├── hooks
 │   │   └── カスタムフック
 │   ├── index.css
@@ -46,7 +46,7 @@
 │   │   └── utils.ts
 │   ├── main.tsx
 │   ├── store
-│   │   ├── 状態管理ファイル
+│   │   └── 状態管理ファイル
 │   ├── types
 │   │   └── user.ts
 │   └── vite-env.d.ts
