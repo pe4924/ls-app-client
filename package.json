@@ -13,7 +13,7 @@
 	},
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx}": ["bunx biome lint .", "bunx biome format --write"],
-		"*.{json}": ["bunx biome format --write"]
+		"*.json": ["bunx biome format --write"]
 	},
 	"dependencies": {
 		"@radix-ui/react-avatar": "^1.1.0",
