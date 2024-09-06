@@ -12,7 +12,7 @@
 		"prepare": "husky"
 	},
 	"lint-staged": {
-		"*.{js,jsx,ts,tsx}": ["bunx biome lint", "bunx biome format --write"],
+		"*.{js,jsx,ts,tsx}": ["bunx biome lint .", "bunx biome format --write"],
 		"*.{json,md}": ["bunx biome format --write"]
 	},
 	"dependencies": {
